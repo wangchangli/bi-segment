@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56fdc46-3daf-4883-8466-61f8e8545b6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_4_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ext.dic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/main2012.dic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/quantifier.dic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/renamemetoinput" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/stopword.dic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/cfg/Configuration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/cfg/DefaultConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/AnalyzeContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/CJKSegmenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/CN_QuantifierSegmenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/CharacterUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/IKArbitrator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/IKSegmenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/ISegmenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/LetterSegmenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/Lexeme.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/LexemePath.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/core/QuickSortSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/dic/DictSegment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/dic/Dictionary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/dic/Hit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/dic/main2012.dic" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/dic/quantifier.dic" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/lucene/IKAnalyzer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/lucene/IKTokenizer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/query/IKQueryExpressionParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/query/SWMCQueryBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/sample/IKAnalzyerDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/wltea/analyzer/sample/LuceneIndexAndSearchDemo.java" afterPath="" />
-    </list>
+    <list default="true" id="c56fdc46-3daf-4883-8466-61f8e8545b6d" name="Default" comment="" />
     <ignored path="bi-segment.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +26,8 @@
       <file leaf-file-name="IKAnalzyerDemo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wltea/analyzer/sample/IKAnalzyerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.220339" vertical-offset="0" max-vertical-offset="1134">
-              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+            <state vertical-scroll-proportion="-0.5254237" vertical-offset="544" max-vertical-offset="1134">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -1033,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/wltea/analyzer/sample/IKAnalzyerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.220339" vertical-offset="0" max-vertical-offset="1134">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        <state vertical-scroll-proportion="-0.5254237" vertical-offset="544" max-vertical-offset="1134">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding />
         </state>
       </provider>
