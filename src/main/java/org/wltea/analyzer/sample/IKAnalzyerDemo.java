@@ -51,11 +51,11 @@ public class IKAnalzyerDemo {
 		
 		//获取Lucene的TokenStream对象
 	    TokenStream ts = null;
-        BufferedWriter outputWriter = new BufferedWriter(new FileWriter(new File("output")));
+        BufferedWriter outputWriter = new BufferedWriter(new FileWriter(new File("output.txt")));
 		try {
 			//ts = analyzer.tokenStream("myfield", new StringReader("大部分人在自己不擅长的领域都很笨呀"));
             //ts = analyzer.tokenStream("myfield", new InputStreamReader(IKAnalzyerDemo.class.getClassLoader().getResourceAsStream("input")));
-            ts = analyzer.tokenStream("myfield", new FileReader(new File("input")));
+            ts = analyzer.tokenStream("myfield", new FileReader(new File("input.txt")));
 			//获取词元位置属性
 		    OffsetAttribute  offset = ts.addAttribute(OffsetAttribute.class); 
 		    //获取词元文本属性
@@ -69,7 +69,7 @@ public class IKAnalzyerDemo {
 			//迭代获取分词结果
 			while (ts.incrementToken()) {
 			  System.out.println(offset.startOffset() + " - " + offset.endOffset() + " : " + term.toString() + " | " + type.type());
-              outputWriter.write(term.toString()+"\n");
+              outputWriter.write(term.toString()+System.getProperty("line.separator"));
 			}
 			//关闭TokenStream（关闭StringReader）
 			ts.end();   // Perform end-of-stream operations, e.g. set the final offset.
